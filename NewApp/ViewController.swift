@@ -8,12 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var counterLabel: UILabel!
+    private var count = 0
+    
+    @IBAction func buttonDidTap(_ sender: UIButton) {
+        count += 1
+        counterLabel.text = "Значение счетчика: \(count)"
     }
 
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        counterLabel.text = "Значение счетчика: \(count)"
+        counterLabel.backgroundColor = UIColor.lightGray
 
 }
-
+    
+}
