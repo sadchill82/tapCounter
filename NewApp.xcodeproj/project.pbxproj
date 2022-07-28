@@ -16,7 +16,6 @@
 		CA738B5328907FB00023E22D /* NewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA738B5228907FB00023E22D /* NewAppTests.swift */; };
 		CA738B5D28907FB00023E22D /* NewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA738B5C28907FB00023E22D /* NewAppUITests.swift */; };
 		CA738B5F28907FB00023E22D /* NewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA738B5E28907FB00023E22D /* NewAppUITestsLaunchTests.swift */; };
-		CA738B6C28909D7D0023E22D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA738B6B28909D7D0023E22D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		CA738B5828907FB00023E22D /* NewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA738B5C28907FB00023E22D /* NewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppUITests.swift; sourceTree = "<group>"; };
 		CA738B5E28907FB00023E22D /* NewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CA738B6B28909D7D0023E22D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		CA738B2F28907FAE0023E22D = {
 			isa = PBXGroup;
 			children = (
-				CA738B6B28909D7D0023E22D /* Main.storyboard */,
 				CA738B3A28907FAE0023E22D /* NewApp */,
 				CA738B5128907FB00023E22D /* NewAppTests */,
 				CA738B5B28907FB00023E22D /* NewAppUITests */,
@@ -237,7 +234,6 @@
 				CA738B4828907FB00023E22D /* LaunchScreen.storyboard in Resources */,
 				CA738B4528907FB00023E22D /* Assets.xcassets in Resources */,
 				CA738B4328907FAE0023E22D /* Main.storyboard in Resources */,
-				CA738B6C28909D7D0023E22D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
